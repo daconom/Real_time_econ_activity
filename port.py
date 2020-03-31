@@ -36,12 +36,6 @@ time.sleep(1)
 buttons[1].click()
 time.sleep(0.6)
 
-#buttons1=browser.find_elements_by_xpath(".//button")
-#for i in range(len(buttons1)):
-#    buttontext= buttons1[i].get_attribute("innerText")
-#    if buttontext == "ACCEPT ALL":
-#     buttons1[i].send_keys("\n")
-
 page=browser.find_element_by_xpath('//*[@id="reporting_ag_grid"]/div/div[2]/div[3]/div/div/div/div/div[3]/div/p[2]').get_attribute("innerText")
 page=int(page[3:5])
 for i in range(page):
