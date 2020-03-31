@@ -1,4 +1,4 @@
-# Real_time_econ_activity
+# Daily Economic Activity
 The aim of this project is to develop a real time indicator for economic activity.
 
 ## Motivation
