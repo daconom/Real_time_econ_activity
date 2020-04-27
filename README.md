@@ -7,9 +7,11 @@ To slow down the spread of the SARS Covid-19 pandemic, governments around the wo
 ## Marine traffic
 Port.py is scraping maritime traffic.
 
+## Vehicle Traffic
+traffic.py is a low-budget scraper for tomtom traffic congestion data. The data compares the current traffic with the average congestion in the last year.  
+
 ## To do
 * real time pollution in major industrial hubs
-* vehicle traffic in major industrial hubs
 * creation of *heat map*
 * website port 
 
